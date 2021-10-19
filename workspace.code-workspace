@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "samples\\simple"
+		},
+		{
+			"path": "samples\\tests"
+		}
+	],
+	"settings": {}
+}

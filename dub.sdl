@@ -1,0 +1,10 @@
+name "skiad"
+description "A minimal D application."
+copyright "Copyright © 2020, HuntLabs"
+license "proprietary"
+lflags "-L/usr/local/lib/" platform="posix"
+lflags "/LIBPATH:c:\\lib\\win-x64" platform="windows-x86_64"
+
+dflags "-preview=shortenedMethods" platform="dmd"
+
+libs "SkiaSharp"

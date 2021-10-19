@@ -1,0 +1,34 @@
+{
+	"authors": [
+		"Huntlabs"
+	],
+	"description": "A simple demo for Skiad.",
+    "license": "Apache-2.0",
+	"name": "simple",
+	"dependencies" : {
+		"skiad" : {
+			"path" : "../../"
+		}
+	},
+	"versions" : [
+		"SKIA_DEBUG"
+	],
+    "configurations": [
+		{
+			"name": "skia",
+			"targetName": "simple-demo",
+			"targetType": "executable",
+			"excludedSourceFiles": [
+				"source/binding.d"
+			]
+		},
+		{
+			"name": "binding",
+			"targetName": "binding-demo",
+			"targetType": "executable",
+			"excludedSourceFiles": [
+				"source/simple.d"
+			]
+		}
+	]
+}

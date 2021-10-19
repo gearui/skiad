@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/simple
+simple.so
+simple.dylib
+simple.dll
+simple.a
+simple.lib
+simple-test-*
+*.exe
+*.o
+*.obj
+*.lst
